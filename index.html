@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="father-container">
+      <div class="section1"></div>
+      <div class="section2">
+        <h1>Stay updated!</h1>
+        <p class="monthly-updates">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+      
+      <div class="info">
+        <p>
+          <img src="./assets/images/icon-list.svg" /> Product discovery and
+          building what <span>matters</span>
+        </p>
+        <p>
+          <img src="./assets/images/icon-list.svg" /> Measuring to ensure
+          updates are a <span>success</span>
+        </p>
+        <p><img src="./assets/images/icon-list.svg" /> And much more!</p>
+      </div>
+    </div>
+    <form id="form">
+      <label class="label1" id="add" for="mail">Email Address</label>
+      <span id="invalid-mail">Valid Email required</span>
+      <span id="empty-mail">Input your Email</span>
+      <input id="mail" type="email" placeholder="adex@gmail.com" required />
+      <button id="btn" type="submit">Subscribe to monthly newsletter</button>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
